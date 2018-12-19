@@ -61,7 +61,7 @@ header
     {
         margin-left: 0px;
         margin-top: 0px;
-         position: relative;
+        position: relative;
     }
 
 }
@@ -124,9 +124,10 @@ header
     }
      .logo-nav
     {
-        position: relative;
+        position:relative;
         margin-top: 0px;
         margin-left: 0px;
+        display: block;
     }
 }
 
@@ -184,11 +185,6 @@ estilos seccion de video
         width: 100%;
         margin-top:0px;
     }   
-    
-    .logo-nav
-    {
-      display: none;
-    }
 }
 
 @media screen and (max-width: 449px) and (min-width: 320px)
@@ -382,14 +378,14 @@ estilo sseccion texto-imagen
     {
         font-family:'Poppins', sans-serif;
         font-size: 14px;
-        text-align: justify;
+        text-align: center;
         margin-left: 22px;
     } 
     #seccion_ti
-{
-    width: 100%;
-    margin-bottom: 50px;
-}
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 /*------------------ 
 fin estilos seccion texto-imagen
@@ -1938,6 +1934,37 @@ ul.cir-po li a
     text-align: left;
 }
 
+.preguntas-reponsive
+{
+    padding: 50px 10px 0;
+}
+.preguntas-reponsive li
+{
+    list-style: none;
+}
+
+#pr
+{
+    display: none;
+}
+
+.pregun
+{
+    font-family:'Poppins', sans-serif;
+    margin-bottom: 10px;
+    color: #d1ae85;
+    font-weight: bold;
+}
+
+.respuesta
+{
+    margin-bottom: 20px;
+    font-family:'Poppins', sans-serif;
+    font-size: 13px;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
 @media screen and (max-width:1200px) and (min-width:995px)
 {
    .card-header
@@ -2004,6 +2031,15 @@ ul.cir-po li a
     background-color: transparent;
     margin-left: -40px
 }
+     #pr
+    {
+        display: block;
+    }
+    
+    #preguntas-frecuentes
+    {
+        display: none;
+    }
     
 }
 
@@ -2073,6 +2109,16 @@ ul.cir-po li a
     {
         font-size: 14px;
         padding: 10px;
+    }
+    
+     #pr
+    {
+        display: block;
+    }
+    
+    #preguntas-frecuentes
+    {
+        display: none;
     }
     
 }
@@ -2146,7 +2192,31 @@ ul.cir-po li a
     max-width: 90%;
     margin:30px;
     height: auto;
-    }  
+    } 
+    
+     #pr
+    {
+        display: block;
+    }
+    
+    #preguntas-frecuentes
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 449px) and (min-width: 320px)
+{
+    #pr
+    {
+        display: block;
+    }
+    
+    #preguntas-frecuentes
+    {
+        display: none;
+    }
+    
 }
 /*--------------------------------
         fin politicas
