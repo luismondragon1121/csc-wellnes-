@@ -413,8 +413,9 @@ estilos centro de belleza
 {
     color: #7aa9da;
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    padding: 100px 0px 10px;
     font-weight: bold;
+    
 }
 
 .contenidosbelleza
@@ -595,7 +596,7 @@ ul.cir_be li a
     }
      .circulos-secciones_belleza article
     {
-        padding: 20px;
+        padding: 30px;
         position: absolute;
          margin-top: -220px;
         margin-left: 60px;
@@ -613,12 +614,13 @@ ul.cir_be li a
         font-size: 12x;
         margin-top: -30px;
         font-size: 14px;
+        padding: 10px;
     }
     .video-belleza
     {
-        width: 400px;
+        width: 100%;
         height: auto;
-        margin-left: 20px; 
+        margin-left: 0px; 
         margin-top: 80px;
         margin-bottom: 50px; 
     }
@@ -680,7 +682,7 @@ ul.cir_be li a
     }
     .video-belleza
     {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         margin-left: 10px; 
         margin-top: 50px;
@@ -747,7 +749,7 @@ ul.cir_be li a
     {
         color: #7aa9da;
         font-family: 'Poppins', sans-serif;
-        padding: 10px;
+        padding: 100px 0px 10px;
         font-weight: bold;
         font-size: 28px;
     }
@@ -804,7 +806,7 @@ fin estilos imagenes slider
 {
     color: #c68659;
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    padding: 100px 0px 10px;
     font-weight: bold;
 }
 
@@ -1135,7 +1137,7 @@ ul.cir li a
     {
         color: #876bb2;
         font-family: 'Poppins', sans-serif;
-        padding: 10px;
+        padding: 100px 0px 10px;
         font-weight: bold;
     }
 
@@ -1402,7 +1404,7 @@ ul.cir_b li a
     {
         color: #876bb2;
         font-family: 'Poppins', sans-serif;
-        padding: 10px;
+        padding:100px 0px 10px;
         font-weight: bold;
         font-size: 26px;
     }
@@ -1428,7 +1430,7 @@ ul.cir_b li a
 {
     color: #b1875a;
     font-family: 'Poppins', sans-serif;
-    padding: 50px;
+    padding: 100px 0px 10px;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
