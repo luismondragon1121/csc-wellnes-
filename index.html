@@ -384,11 +384,22 @@ var myLatLng = {lat: 19.3884264,lng: -99.17876319999999};
           return true
           }
         </script>
+        
 <script src="js/wow.min.js" ></script>
 <script type="text/javascript">
    new WOW().init();
 </script> 
 
+<script>
+    var window_width = $(window).width(),
+        window_height = window.innerHeight,
+        header_height = $(".default-header").height(),
+        header_height_static = $ (".site-header.static").outerHeight(),
+        fitscreen = window_height-header_height;
+        
+    $(".fullscreen").css("height","window_height");
+    $(".fitscreen").css("height",fitscreen);
+</script>
 <script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/spa.js"></script>

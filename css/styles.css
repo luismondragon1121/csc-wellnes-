@@ -174,7 +174,7 @@ estilos seccion de video
         width: 100%;
         margin-top: 0px;
     }   
-}
+
 }
 
 @media screen and (max-width: 450px)
@@ -382,10 +382,14 @@ estilo sseccion texto-imagen
     {
         font-family:'Poppins', sans-serif;
         font-size: 14px;
-        padding: 0px;
         text-align: justify;
-        margin-left: 15px;
+        margin-left: 22px;
     } 
+    #seccion_ti
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
 }
 /*------------------ 
 fin estilos seccion texto-imagen
@@ -676,9 +680,9 @@ ul.cir_be li a
     }
     .video-belleza
     {
-        width: 300px;
+        max-width: 100%;
         height: auto;
-        margin-left: 50px; 
+        margin-left: 10px; 
         margin-top: 50px;
         margin-bottom: 50px; 
     }
@@ -712,7 +716,7 @@ ul.cir_be li a
         font-size: 16px;
         text-align:left;
         margin-top: 12px;  
-        padding: 6px;
+        padding: 10px;
     }
 
     .circulos-secciones_belleza article p
@@ -722,7 +726,7 @@ ul.cir_be li a
         font-size: 11px;
         font-family:'Poppins', sans-serif;
         margin-left: -10px;
-        margin-top: 10px;
+        margin-top: -5px;
     }
     
     .img-circulos
@@ -733,11 +737,19 @@ ul.cir_be li a
     }
     .video-belleza
     {
-        width: 300px;
+        max-width: 100%;
         height: auto;
         margin-left:0px; 
         margin-top: 20px;
         margin-bottom: 50px; 
+    }
+    .titulobelleza
+    {
+        color: #7aa9da;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 28px;
     }
 }
 /*--------------------- 
@@ -1042,9 +1054,9 @@ ul.cir li a
     
     .video-spa
     {
-        width: 300px;
+        width: 100%;
         height: auto;
-        margin-left: 50px; 
+        margin-left: 0px; 
         margin-top: 0px;
         margin-bottom: 50px; 
     }
@@ -1087,7 +1099,7 @@ ul.cir li a
     
     .video-spa
     {
-        width: 300px;
+        width: 100%;
         height: auto;
         margin-left: 0px; 
         margin-top: 0px;
@@ -1344,9 +1356,9 @@ ul.cir_b li a
     
     .video-bienestar
     {
-        width: 300px;
+        width: 100%;
         height: auto;
-        margin-left: 60px; 
+        margin-left: 0px; 
         margin-top: 50px;
         margin-bottom: 50px; 
     }
@@ -1380,11 +1392,19 @@ ul.cir_b li a
     
     .video-bienestar
     {
-        width: 300px;
+        width: 100%;
         height: auto;
         margin-left: 0px; 
         margin-top: 0px;
         margin-bottom: 50px; 
+    }
+    .titulo-bienestar
+    {
+        color: #876bb2;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 26px;
     }
 }
 
